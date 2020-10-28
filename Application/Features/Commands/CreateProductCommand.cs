@@ -35,3 +35,6 @@ namespace Application.Features.Commands
         }
     }
 }
+
+//Burada görüldüğü üzere ürün ekleme işlemi yapabilmek için Name, Barcode, Description ve Rate gibi property leri vermesi gerektiğini söylüyoruz.
+//Şimdi uygulamazın veritabanı ile nasıl iletişim kuracağını implemente ediceğiz Infrastructure katmanında.
