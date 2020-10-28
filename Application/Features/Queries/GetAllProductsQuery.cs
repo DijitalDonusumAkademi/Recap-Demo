@@ -26,3 +26,5 @@ namespace Application.Features.Queries
         
     }
 }
+
+//Burada ki yapımızı diğer feature larımızda da kullanacağız. Uygulamamıza bu handler sınıflar ile isteklerini bildirecekler eğer gerekiyorsa parametre olarakta bu işin yapılması için gereken değerleri yine query ve ya command sınıflarımızla iletecekler. Gördüğünüz gibi veritabanı için ApplicationContext’in interface ini constructor ile alıyoruz bunu dependency injection ile webapi bizim yerimize sınıflarımıza geçirecektir. Diğer feature larımızda da aynı yolu izleyeceğiz.
